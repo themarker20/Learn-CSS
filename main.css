@@ -1,0 +1,59 @@
+/*
+text-decoration: underline , line-through, overline
+text-transform: uppercase, lowercase, capitalize
+font-style: italic > i
+font-weight: 100:900 (normal, bold, bolder) b
+font-size: (value)px
+text-shadow: x y blur color
+*/
+
+/* 
+Text Color: 
+  1- Color Name
+  2- HEX Color (0123456789 abcdef) (12 34 56)
+  3- Red, Green Blue rgb(0 > 255, 0 > 255, 0 > 255)
+  4- HSL hsl(50, 50%, 1%)
+Background Color:
+*/
+
+/* 
+Dimentions
+  Width 480px > 1300px
+  Height
+*/
+
+body {
+  background-color: rgb(220, 196, 153);
+}
+
+.a {
+  width: 200px;
+  height: 200px;
+  background-color: #264570;
+  border-radius: 50px;
+}
+
+.cc{
+  width: 300px;
+  height: 150px;
+  background-color: #aa3344;
+  border-radius: 50%;
+}
+
+.fa {
+  width: 150px;
+  height: 150px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+/*
+a {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+img {
+  width: 200px;
+} */
