@@ -38,24 +38,42 @@ Display
 
 /* 
 Spacing
-  Margin
-  Padding
-  Border
+  Margin  > top, right, bottom, left
+  Padding > top, right, bottom, left
+  Border  > width style color
+  Border  > -top,right,bottom,left
+
+  Border Radius  > الحواف الدائرية
+    border-top-left-radius
+    border-top-right-radius
+    border-bottom-left-radius
+    border-bottom-right-radius
 */
 
-body {
-  background-color: rgb(64, 52, 31);
+/* Position
+    Parent > relative (to contain all inside)
+
+    Child > Relative  قريب و يتحرك بالقرب من الأب
+          > Absolute حر ويتحرك فى أى ماكن
+          > Fixed ثابت فى مكان يتم تحديده ولا يتحرك أبدا
+          > Sticky ثابت فى مكانه حتى ينتهى البيرنت
+
+*/
+
+div.parent{
+  height: 2000px;
+  width: 300px;
+  position: relative;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
-.flex {
-  display: inline-flex;
-}
 
-.a {
-  width: 200px;
-  height: 200px;
-  background-color: #264570;
-  border-radius: 50px;
-  margin-bottom: 20px;
+div.child{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(141, 26, 26);
+  position: sticky;
+  left: 20px;
+  top: 50px;
 }
-
