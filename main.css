@@ -60,7 +60,7 @@ Spacing
 
 */
 
-div.parent{
+/* div.parent{
   height: 2000px;
   width: 300px;
   position: relative;
@@ -76,4 +76,31 @@ div.child{
   position: sticky;
   left: 20px;
   top: 50px;
+} */
+
+
+
+/* Transform */
+
+/* 
+  Rotate() عباره عن دوران مع او  ضد عقارب الساعه
+  rotateX, rotateY, rotateZ دوران على حسب المحور
+
+  Translate(X,Y) تحريك العنصر من مكانه بعيدا عن محور الX,Y 
+  translateX() / translateY() تحريك للعنصر من اتجاه واحد
+
+  Scale (0 > 1) 1.1 1.2
+
+  Skew (deg)
+*/
+
+div {
+  width: 100px;
+  height: 50px;
+  background-color: rgb(98, 31, 31);
+  /* تحريك من Y و X 
+    تكبير لحجم العنصر
+    دوران عكس عقارب الساعه
+   */
+  transform: translate(70px, 100px) rotate(-15deg);
 }
